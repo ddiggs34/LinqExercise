@@ -22,12 +22,12 @@ namespace LinqExercise
 
             //TODO: Print the Sum of numbers - DONE
            var sumOfList = numbers.Sum();
-          // Console.WriteLine(sumOfList);
+           Console.WriteLine(sumOfList);
 
             //TODO: Print the Average of numbers - DONE
             var avgOfList = numbers.Average();
 
-            //    Console.WriteLine(avgOfList);
+               Console.WriteLine(avgOfList);
             
 
             //TODO: Order numbers in ascending order and print to the console - done
@@ -35,7 +35,7 @@ namespace LinqExercise
             
            foreach (var number in numbers) 
            {
-           //  Console.WriteLine(number);
+            Console.WriteLine(number);
            }
 
             //TODO: Order numbers in descending order and print to the console - done
@@ -43,7 +43,7 @@ namespace LinqExercise
 
             foreach (var number in descOrder)
             {
-             //   Console.WriteLine(number);
+               Console.WriteLine(number);
             }
 
             //TODO: Print to the console only the numbers greater than 6 - done
@@ -51,7 +51,7 @@ namespace LinqExercise
             var sevenUp = numbers.Where(x => x > 6);
             foreach (var number in sevenUp)
             {
-           //     Console.WriteLine(number);
+                Console.WriteLine(number);
             }
 
 
@@ -61,7 +61,7 @@ namespace LinqExercise
             
             foreach (var num in first4)
             {
-         //       Console.WriteLine(num);
+                Console.WriteLine(num);
             }
 
 
@@ -72,7 +72,7 @@ namespace LinqExercise
             
             foreach (var number in descOrder)
             { 
-          //      Console.WriteLine(number); 
+                Console.WriteLine(number); 
             }
 
 
@@ -87,7 +87,7 @@ namespace LinqExercise
 
             foreach (var employee in onlyCS) 
             {
-               // Console.WriteLine(employee.FullName);
+                Console.WriteLine(employee.FullName);
             }
 
             //TODO: Print all the employees' FullName and Age who are over the age 26 to the console and order this by Age first and then by FirstName in the same result.
@@ -95,7 +95,7 @@ namespace LinqExercise
                 foreach 
                 (var person in twentySevenUp)
                 {
-                //    Console.WriteLine($"Name - {person.FullName} || Age - {person.Age}");
+                   Console.WriteLine($"Name - {person.FullName} || Age - {person.Age}");
                 }
             //TODO: Print the Sum and then the Average of the employees' YearsOfExperience if their YOE is less than or equal to 10 AND Age is greater than 35.
 
